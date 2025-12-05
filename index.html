@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Dynamic Webpage</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Page!</h1>
+    </header>
+    <img class="ohn" src="/images/Soumil Photo.jpg" alt="Photo of Soumil" />
+    <img class="onp" src="/images/download (2).png" alt="Photo" />
+
+    <h1 class="username">Soumil Goyal</h1>
+    <h2 class="username1">ME25B403</h2>
+    <p style="font-size: 20px">
+      Hello! My name is Soumil. I am currently pursuing my studies at the Indian
+      Institute of Technology Madras, in the Department of Mechanical
+      Engineering. I am originally from Mumbai, Maharashtra.
+    </p>
+    <p style="font-size: 20px">
+      A fun and unique fact about me is that I can speak and write in Chinese
+      (Mandarin) — something that often surprises people!
+    </p>
+    <h2 style="color: orangered">Hobbies</h2>
+    <ul>
+      <li>Watching cricket</li>
+      <li>Eating food</li>
+      <li>Sleeping</li>
+      <li>Playing badminton</li>
+      <li>Talking to people</li>
+      <li>Making new friends</li>
+    </ul>
+    <h2 style="color: orangered">Contact info</h2>
+    <ul>
+      <li>Phone no: 9321639524</li>
+      <li>Smail: me25b043@smail.iitm.ac.in</li>
+      <li>Linkedin: www.linkedin.com/in/soumil-goyal-a9201a308</li>
+    </ul>
+
+    <div class="clearfix"></div>
+
+    <div class="content">
+      <section id="weather-widget">
+        <h2>Current Weather in Mumbai</h2>
+        <div id="weather-info">
+          <p>Loading weather data...</p>
+        </div>
+      </section>
+
+      <section id="map-widget">
+        <h2>My Location: Mumbai, India</h2>
+        <div id="mapid"></div>
+      </section>
+    </div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
